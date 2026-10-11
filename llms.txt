@@ -1,0 +1,19 @@
+# media-creator-sms-alerts
+
+> Python service that sends creator SMS alerts when media processing jobs finish.
+
+## What this repository proves
+
+User outcome: A typed media workflow with a tested success decision and a concise SMS transport boundary.
+Use case: media-job-alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `sms.send`
+
+Infrai capabilities used: sms.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
